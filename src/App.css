@@ -1,0 +1,73 @@
+#sec {
+  background-image: url(https://images.pexels.com/photos/4058882/pexels-photo-4058882.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-green {
+  background-color: #9dc83a;
+  color: white;
+}
+
+button:hover {
+  background-color: #86ad29;
+}
+
+.lg-text {
+  font-size: 2rem;
+}
+
+.md-text {
+  font-size: 23px;
+}
+.text-grey {
+  color: #868585;
+}
+
+.shade {
+  background-color: #ae0d7a;
+}
+.sm-text {
+  font-size: 18px;
+}
+
+.item .left img {
+  width: 50px;
+}
+
+.form-input {
+  border: none;
+  border-bottom: 1px solid;
+}
+::placeholder {
+  color: #cecece !important;
+}
+
+.last-img {
+  width: 10rem;
+}
+
+.ribbon .dot {
+  width: 20px;
+  height: 20px;
+  border: 7px solid black;
+  background-color: white;
+  transition: all 0.3s linear;
+}
+
+.ribbon .dot:hover {
+  transform: scale(1.2);
+}
+
+.ribbon .line {
+  position: absolute;
+  z-index: -10;
+  width: 50%;
+  background: #000;
+  height: 2px;
+}
+
+.active {
+  transform: scale(1.5);
+  border-color: rgb(127, 212, 0) !important;
+}
